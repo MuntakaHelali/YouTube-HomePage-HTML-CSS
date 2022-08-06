@@ -2,7 +2,8 @@
 
 
 The YouTube webpage was recreated using features of HTML and CSS. At a first glance, the webpage is almost identical to the main YouTube Home Page presented to a user that is logged in to an account. However, there are some additional functionalites implemented to showcase more advance techniques of using HTML and CSS.
-  
+
+<h2>Header</h2>
 Staring with the top of the webpage, the header was created by splitting it into 3 sections, left, middle, and right. This was done using a main header container using the flex property with a fixed position to keep the header at the top of the page. Within, the header container, the first container created was the left. The left container contains the Hamburger icon menu and the YouTube Logo that is used in [YouTube.com](https://youtube.com/). 
 <br>
 <br>
@@ -46,4 +47,23 @@ In the header, for all the icons in the middle and right section except for the 
 </p>
 <br>
 <br>
-
+<h2>Sidebar</h2>
+The sidebar was implemented in a similar manner as the header, by making use of the nav and position element with a fixed property. The major difference from the header is that there are media queries used so that the contents of the sidebar change depending on the size of the user's display. If the width of the web-page is less than 1200px then this will be displayed: 
+<br>
+<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57158277/183262906-db8fed6d-cb81-41fc-8ace-eba8a9fd7402.png" width="550">
+<br>
+<br>
+The user can hover over each icon and see the change in background to indicate which icon is being focused. 
+</p>
+<br>
+<br>
+When the web-page is greater than 1200.1px in width, then the sidebar will increase in size and the contents of the webpage will be shifted to the left to accomodate the changes. The sidebar style will also change with the text of each icon will be on the left with an increase to the font, and a decrease in size for the icons. 
+<br>
+<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57158277/183263037-f8f04916-ac89-434b-96fa-78c599868cf1.png" width="150">
+<br>
+<br>
+<h2>Videos</h2>
