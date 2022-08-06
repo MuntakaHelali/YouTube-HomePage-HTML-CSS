@@ -4,7 +4,7 @@
 The YouTube webpage was recreated using features of HTML and CSS. At a first glance, the webpage is almost identical to the main YouTube Home Page presented to a user that is logged in to an account. However, there are some additional functionalites implemented to showcase more advance techniques of using HTML and CSS.
 
 <h2>Header</h2>
-Staring with the top of the webpage, the header was created by splitting it into 3 sections, left, middle, and right. This was done using a main header container using the flex property with a fixed position to keep the header at the top of the page. Within, the header container, the first container created was the left. The left container contains the Hamburger icon menu and the YouTube Logo that is used in [YouTube.com](https://youtube.com/). 
+Staring with the top of the webpage, the header was created by splitting it into 3 sections, left, middle, and right. This was done using a main header container using the flex property with a fixed position to keep the header at the top of the page. Within, the header container, the first container created was the left. The left container contains the Hamburger icon menu and the YouTube Logo that is used in <a href=https://youtube.com/>YouTube.com</a>. 
 <br>
 <br>
 <p align="center">
@@ -64,6 +64,28 @@ When the web-page is greater than 1200.1px in width, then the sidebar will incre
 <br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/57158277/183263037-f8f04916-ac89-434b-96fa-78c599868cf1.png" width="150">
+</p>
 <br>
 <br>
 <h2>Videos</h2>
+The main section of the HTML page is the videos which was implemented as a section HTML element. To get the exact layout, the video section is created using a grid display layout. Using properties of the grid layout, the spacing around the videos and between the rows was added. The contents within each video are also created using the grid layout. The user can click on the thumbnail, title of the video, channel icon, and channel name to be redirected to their respective selection. 
+<br>
+<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57158277/183264284-eb3ea0cf-7263-4207-99d3-16daa5b75836.png" width="850"></p>
+<br>
+<br>
+Similar to the tooltip created for the header, the tooltip is implemented in the video section when the user hovers over a video title. The user can also hover over the channel icon to be shown the channel icon, channel name, and channel subscriber count. 
+<br>
+<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/57158277/183264357-34c096fc-cff2-4837-8d99-cd09f41a3959.png" width="550">
+<br>
+<br>
+The tooltip presented with the title of the video when the user hovers over the video title
+<br>
+<br>
+<img src="https://user-images.githubusercontent.com/57158277/183264436-77d320d9-4369-46c7-a78f-df8b5f84f382.png" width="550">
+<br>
+<br>
+The tooltip presented with the channel information when the user hovers over the channel icon
